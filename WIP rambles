@@ -1,3 +1,12 @@
 Gonna try to put this together here on GitHub as much as possible. Uploaded the inital cat image, created by Dall-E with some editing to clean it up. Also made a version without the cat. 
 
 Used my Nepeta cat head for the app icons. Spun up the create-react-app and swapped that in.
+
+What do I want here?
+  * If current device is not registered, front page should be "Has the cat been fed?" and 2 selections: "Create new household" OR "Enter household number"
+  * If New household, then choose from 1 - 3 feeding windows: breakfast, lunch, dinner
+  * Provide household number and warning to screenshot and save the number since no email is taken
+  * Signed in front page: "The cat was last fed BREAKFAST TODAY"
+    * below that: if that is not the current time window, a button saying "I fed the cat"
+    * Below that, little house icon and the household number, with options button
+  * Options: Create new household, Change household, Change feeding times
