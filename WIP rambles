@@ -4,9 +4,10 @@ Used my Nepeta cat head for the app icons. Spun up the create-react-app and swap
 
 What do I want here?
   * If current device is not registered, front page should be "Has the cat been fed?" and 2 selections: "Create new household" OR "Enter household number"
-  * If New Household, then provide newly-generated household number and warning to screenshot and save the number since no email is taken
+  * If New Household, then provide newly-generated household number and warning to screenshot and save the number since no email is taken. Press button to go to signed-in front page
+  * If number entered, redirect to signed-in front page
   
-  * Signed in front page: "The cat was last fed <time, date>"
+  * Signed-in front page: "The cat was last fed <time, date>"
     * below that: a button saying "I just fed the cat"
     * Below that, little house icon and the household number, with options button
   * Options: Create new household, Change household
